@@ -32,6 +32,9 @@ Used cross entropy as the loss function, gradient descent as the optimizer and i
 The implemented models were evaluated based on their accuracy rates in predicting Premier League match outcomes. Here are the results for the testing sets:
 
 KNN: [model: 69%], [sklearn: 79%] accuracy
+
 Naive Bayes: [model: 69%], [sklearn: 69%] accuracy
+
 Logistic Classification (One-vs-All): [model: 94%], [sklearn: 84%] accuracy
+
 It is worth noting that the logistic classifier model surpasses by a significant mile the other models, with an accuracy rate of 94%. However, the accuracy rates may be influenced by factors such as dataset size, problem complexity, and feature selection.
